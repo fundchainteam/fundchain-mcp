@@ -1,0 +1,34 @@
+{
+  "mcpb_version": "0.1",
+  "name": "fundchain",
+  "version": "1.0.0",
+  "description": "Let your AI agent create and manage crypto crowdfunding campaigns on Fundchain.ai. Accept ETH and USDC donations autonomously via x402 protocol.",
+  "author": {
+    "name": "Fundchain",
+    "url": "https://fundchain.ai"
+  },
+  "repository": "https://github.com/fundchainteam/fundchain-mcp",
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"]
+    }
+  },
+  "user_config": {
+    "fundchain_api_key": {
+      "type": "string",
+      "title": "Fundchain API Key",
+      "description": "Your Fundchain.ai API key for creating and managing campaigns",
+      "required": false
+    },
+    "wallet_address": {
+      "type": "string",
+      "title": "Ethereum Wallet Address",
+      "description": "Your ETH wallet address to receive donations",
+      "required": false
+    }
+  }
+}

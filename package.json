@@ -1,0 +1,14 @@
+{
+  "name": "fundchain-mcp",
+  "version": "1.0.0",
+  "description": "Fundchain.ai MCP Server - Let AI agents create and manage crypto crowdfunding campaigns",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
