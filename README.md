@@ -1,3 +1,4 @@
+<!-- mcp-name: io.github.fundchainteam/fundchain-mcp -->
 # Fundchain MCP Server
 
 Let your AI agent create and manage crypto crowdfunding campaigns on [Fundchain.ai](https://fundchain.ai).

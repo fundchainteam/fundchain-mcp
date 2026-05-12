@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.fundchainteam/fundchain-mcp",
+  "description": "Let AI agents create and manage crypto crowdfunding campaigns on Fundchain.ai. Accept ETH and USDC donations via x402 protocol.",
+  "repository": {
+    "url": "https://github.com/fundchainteam/fundchain-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registry": "npm",
+      "name": "fundchain-mcp",
+      "version": "1.0.0"
+    }
+  ]
+}
